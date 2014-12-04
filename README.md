@@ -1,4 +1,4 @@
-# Dicom Inspector
+# DICOM Inspector
 
 A simple sinatra app which gives you a UI to inspect DICOM headers. Saves your
 time by not entering the console anymore just to inspect the headers.
