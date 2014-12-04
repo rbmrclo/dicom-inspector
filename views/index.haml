@@ -1,0 +1,16 @@
+.container
+  .row
+    .col-sm-2
+      %h2 Dicom Inspector
+      %form(method='post' enctype='multipart/form-data' action='/upload' id='dicom-inspector-form')
+        %input(type='file' name='file' id='dicom-inspector-file-select') 
+        %br
+        %input(type='submit' value='Upload' id='dicom-inspector-upload-button' class='btn btn-success')
+        %hr
+        - if @dicom.present?
+          = "Or view on another tab:"
+          %span
+            %a(href="/metadata.json" target="blank") Metadata.json
+    .col-sm-10
+      %br
+      %iframe(src="/metadata.json" width="100%" height="500px")
