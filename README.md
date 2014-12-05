@@ -8,7 +8,6 @@ time by not entering the console anymore just to inspect the headers.
 + [Haml](http://haml.info/)
 + [ruby-dicom](https://github.com/dicom/ruby-dicom)
 + [mongoid](https://github.com/mongoid/mongoid)
-+ Built less than 30mins. by using [Sinatra Boilerplate](https://github.com/rbmrclo/sinatra-boilerplate)
 
 ## Installation
 
